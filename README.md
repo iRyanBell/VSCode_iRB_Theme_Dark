@@ -3,6 +3,9 @@ A friendly dark-mode theme for VSCode.
 
 ![Theme Screenshot](https://user-images.githubusercontent.com/25379378/67626454-7ea5e300-f800-11e9-81ea-55c9c3aa33a4.png)
 
+### Premium font
+Dank Mono: https://dank.sh/
+
 ### Additional Settings (optional)
 
 ```json
