@@ -6,23 +6,25 @@
     "url": "https://github.com/iRyanBell/VSCode_iRB_Theme_Dark"
   },
   "description": "A dark color scheme with italics.",
-  "version": "1.0.0",
-  "publisher": "iRyanBell",
-  "engines": {
-    "vscode": "^1.20.0"
-  },
+  "version": "1.0.1",
+  "publisher": "iryanbell",
   "scripts": {
+    "package": "vsce package",
     "deploy": "vsce publish"
   },
   "categories": [
     "Themes"
   ],
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
         "label": "iRB Theme Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/irb-theme-dark-1.0.0.json"
+        "path": "./themes/irb-theme-dark.json"
       }
     ]
   }
