@@ -1,6 +1,10 @@
 {
   "name": "irb-theme-dark",
   "displayName": "iRB Theme Dark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iRyanBell/VSCode_iRB_Theme_Dark"
+  },
   "description": "A dark color scheme with italics.",
   "version": "1.0.0",
   "publisher": "iRyanBell",
