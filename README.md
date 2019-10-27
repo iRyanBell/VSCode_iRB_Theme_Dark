@@ -19,3 +19,5 @@ Dank Mono: https://dank.sh/
   "explorer.decorations.badges": false
 }
 ```
+
+Available at https://marketplace.visualstudio.com/items?itemName=iryanbell.irb-theme-dark
