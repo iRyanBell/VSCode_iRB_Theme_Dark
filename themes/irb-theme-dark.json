@@ -4,8 +4,8 @@
   "type": "dark",
   "colors": {
     "activityBarBadge.background": "#007ACC",
-    "editor.background": "#1a1a1c",
-    "editor.foreground": "#d9d9db",
+    "editor.background": "#171719",
+    "editor.foreground": "#e2e3e5",
     "editor.inactiveSelectionBackground": "#3A3D41",
     "editor.selectionHighlightBackground": "#ADD6FF26",
     "editorIndentGuide.activeBackground": "#707070",
@@ -15,9 +15,16 @@
     "settings.numberInputBackground": "#292929",
     "settings.textInputBackground": "#292929",
     "sideBarTitle.foreground": "#BBBBBB",
-    "editor.lineHighlightBackground": "#00000050"
+    "editor.lineHighlightBackground": "#00000060"
   },
   "tokenColors": [
+    {
+      "name": "Punctuation",
+      "scope": ["meta"],
+      "settings": {
+        "foreground": "#cbcccb"
+      }
+    },
     {
       "name": "Function declarations",
       "scope": [
@@ -26,7 +33,7 @@
         "support.constant.handlebars"
       ],
       "settings": {
-        "foreground": "#DCDCAA"
+        "foreground": "#e2e3e4"
       }
     },
     {
@@ -95,7 +102,7 @@
         "support.variable"
       ],
       "settings": {
-        "foreground": "#d9d9db"
+        "foreground": "#e2e3e4"
       }
     },
     {
@@ -106,7 +113,7 @@
       }
     },
     {
-      "name": "CSS property value",
+      "name": "CSS property value and quotes",
       "scope": [
         "support.constant.property-value",
         "support.constant.font-name",
@@ -173,7 +180,7 @@
     {
       "scope": ["meta.embedded", "source.groovy.embedded"],
       "settings": {
-        "foreground": "#d9d9db"
+        "foreground": "#e2e3e4"
       }
     },
     {
@@ -195,9 +202,9 @@
       }
     },
     {
-      "scope": "comment",
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#608b4e",
+        "foreground": "#72c066",
         "fontStyle": "italic"
       }
     },
@@ -424,7 +431,7 @@
       "name": "Reset JavaScript string interpolation expression",
       "scope": ["meta.template.expression"],
       "settings": {
-        "foreground": "#d9d9db"
+        "foreground": "#e2e3e4"
       }
     },
     {
@@ -449,7 +456,7 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#d9d9db"
+        "foreground": "#75bfff"
       }
     },
     {
@@ -510,7 +517,7 @@
         "storage.modifier.package.java"
       ],
       "settings": {
-        "foreground": "#d9d9db"
+        "foreground": "#e2e3e4"
       }
     },
     {
